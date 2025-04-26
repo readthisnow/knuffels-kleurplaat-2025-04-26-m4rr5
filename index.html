@@ -1,43 +1,65 @@
 <!DOCTYPE html>
-<html lang="nl" class="scroll-smooth">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="nl" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Knuffels Kleurplaat - Speciale Korting</title>
     <meta name="description" content="Koop nu Knuffels Kleurplaat met speciale korting. Exclusieve aanbieding voor limited time only!">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
 </head>
 <body class="bg-gray-900 text-gray-100 font-sans antialiased">
     <header class="fixed w-full bg-gray-900/95 backdrop-blur-sm z-50 border-b border-gray-800">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <a href="#" class="text-2xl font-bold bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">
+                <a href="https://readthisnow.github.io/knuffels-kleurplaat-2025-04-26-m4rr5" class="text-2xl font-bold bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent hover:scale-105 transition-transform duration-300">
                     Knuffels Kleurplaat
                 </a>
                 <div class="hidden md:flex space-x-8">
-                    <a href="#features" class="text-gray-300 hover:text-white transition-colors duration-300">Features</a>
-                    <a href="#benefits" class="text-gray-300 hover:text-white transition-colors duration-300">Voordelen</a>
-                    <a href="#faq" class="text-gray-300 hover:text-white transition-colors duration-300">FAQ</a>
+                    <a href="#features" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">Features</a>
+                    <a href="#benefits" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">Voordelen</a>
+                    <a href="#testimonials" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">Over Ons</a>
+                    <a href="#faq" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">FAQ</a>
                 </div>
+                <button class="mobile-menu-button md:hidden" aria-label="Menu">
+                    <i class="fas fa-bars text-2xl text-gray-300 hover:text-white transition-colors duration-300"></i>
+                </button>
+            </div>
+            <div class="mobile-menu hidden md:hidden mt-4 bg-gray-800 rounded-lg p-4">
+                <a href="#features" class="block py-2 text-gray-300 hover:text-white hover:bg-gray-700 rounded px-4 transition-all duration-300">Features</a>
+                <a href="#benefits" class="block py-2 text-gray-300 hover:text-white hover:bg-gray-700 rounded px-4 transition-all duration-300">Voordelen</a>
+                <a href="#testimonials" class="block py-2 text-gray-300 hover:text-white hover:bg-gray-700 rounded px-4 transition-all duration-300">Testimonials</a>
+                <a href="#about" class="block py-2 text-gray-300 hover:text-white hover:bg-gray-700 rounded px-4 transition-all duration-300">Over Ons</a>
+                <a href="#faq" class="block py-2 text-gray-300 hover:text-white hover:bg-gray-700 rounded px-4 transition-all duration-300">FAQ</a>
             </div>
         </nav>
     </header>
 
     <main>
         <section class="relative min-h-screen flex items-center justify-center py-24 overflow-hidden">
+            <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?auto=format&fit=crop&w=1920')] bg-cover bg-center opacity-20"></div>
             <div class="absolute inset-0 bg-gradient-to-br from-purple-900/40 to-pink-900/40 z-0"></div>
             <div class="container mx-auto px-6 relative z-10">
                 <div class="max-w-4xl mx-auto text-center">
                     <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent animate-fade-in">
-                        Koop Knuffels Kleurplaat Met Korting
+                        Ontdek de Magische Wereld van Knuffels Kleurplaat
                     </h1>
                     <p class="text-xl md:text-2xl text-gray-300 mb-12">
-                        🔥 Nog maar enkele exemplaren beschikbaar! 
-                        <span class="font-semibold text-purple-400">Bestel nu met speciale korting</span>
+                        🔥 Exclusieve Limited Edition Collectie - Nu met 30% Korting! 
+                        <span class="font-semibold text-purple-400">Nog maar 50 exemplaren beschikbaar</span>
                     </p>
                     <a href="https://amzn.to/3GoxZQw" class="inline-block bg-gradient-to-r from-purple-600 to-pink-600 text-white font-bold py-4 px-8 rounded-full text-lg hover:scale-105 transform transition duration-300 shadow-lg hover:shadow-purple-500/25">
-                        Bekijk Aanbieding
+                        Claim Jouw Korting Nu
                     </a>
                 </div>
             </div>
@@ -46,23 +68,23 @@
         <section id="features" class="py-24 bg-gray-800/50">
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-                    Waarom Knuffels Kleurplaat?
+                    Ontdek de Unieke Kenmerken
                 </h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <div class="bg-gray-800 rounded-xl p-8 hover:scale-105 transition duration-300 border border-gray-700">
+                    <div class="bg-gray-800 rounded-xl p-8 hover:scale-105 transition duration-300 border border-gray-700 hover:shadow-lg hover:shadow-purple-500/20">
                         <div class="text-purple-400 text-4xl mb-4">⭐</div>
-                        <h3 class="text-xl font-bold mb-4">Exclusief Design</h3>
-                        <p class="text-gray-400">Unieke kleurplaten die nergens anders te vinden zijn!</p>
+                        <h3 class="text-xl font-bold mb-4">Handgetekend Design</h3>
+                        <p class="text-gray-400">Elk ontwerp is met zorg handgetekend door professionele kunstenaars, met oog voor detail en creativiteit die kinderen inspireert.</p>
                     </div>
-                    <div class="bg-gray-800 rounded-xl p-8 hover:scale-105 transition duration-300 border border-gray-700">
+                    <div class="bg-gray-800 rounded-xl p-8 hover:scale-105 transition duration-300 border border-gray-700 hover:shadow-lg hover:shadow-purple-500/20">
                         <div class="text-purple-400 text-4xl mb-4">🎨</div>
-                        <h3 class="text-xl font-bold mb-4">Premium Kwaliteit</h3>
-                        <p class="text-gray-400">Gedrukt op hoogwaardig papier voor de beste kleurervaring</p>
+                        <h3 class="text-xl font-bold mb-4">Superieure Drukkwaliteit</h3>
+                        <p class="text-gray-400">Gedrukt op 180 grams premium papier dat perfect is voor alle kleurmaterialen, van potlood tot marker, zonder doorlekken.</p>
                     </div>
-                    <div class="bg-gray-800 rounded-xl p-8 hover:scale-105 transition duration-300 border border-gray-700">
+                    <div class="bg-gray-800 rounded-xl p-8 hover:scale-105 transition duration-300 border border-gray-700 hover:shadow-lg hover:shadow-purple-500/20">
                         <div class="text-purple-400 text-4xl mb-4">🚚</div>
-                        <h3 class="text-xl font-bold mb-4">Snelle Levering</h3>
-                        <p class="text-gray-400">Binnen 1-2 werkdagen in huis!</p>
+                        <h3 class="text-xl font-bold mb-4">Express Levering</h3>
+                        <p class="text-gray-400">Gratis verzending en binnen 24 uur verzonden. Track & trace code inclusief voor real-time updates.</p>
                     </div>
                 </div>
             </div>
@@ -71,23 +93,73 @@
         <section id="benefits" class="py-24">
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-                    Voordelen
+                    Waarom Kiezen Voor Ons?
                 </h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-                    <div class="flex items-start space-x-4">
+                    <div class="flex items-start space-x-4 hover:scale-105 transition-transform duration-300">
                         <span class="text-purple-400 text-2xl">✨</span>
                         <div>
-                            <h3 class="text-xl font-bold mb-2">Beperkte Oplage</h3>
-                            <p class="text-gray-400">Nog maar enkele exemplaren beschikbaar tegen deze prijs!</p>
+                            <h3 class="text-xl font-bold mb-2">Exclusieve Editie</h3>
+                            <p class="text-gray-400">Slechts 500 exemplaren gedrukt. Elke kleurplaat is genummerd en voorzien van een echtheidscertificaat.</p>
                         </div>
                     </div>
-                    <div class="flex items-start space-x-4">
+                    <div class="flex items-start space-x-4 hover:scale-105 transition-transform duration-300">
                         <span class="text-purple-400 text-2xl">💝</span>
                         <div>
-                            <h3 class="text-xl font-bold mb-2">Perfect Cadeau</h3>
-                            <p class="text-gray-400">Ideaal voor verjaardagen en speciale gelegenheden</p>
+                            <h3 class="text-xl font-bold mb-2">Luxe Cadeauverpakking</h3>
+                            <p class="text-gray-400">Geleverd in een premium geschenkdoos met goudfolie details, inclusief set van 12 professionele kleurpotloden.</p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="py-24 bg-gray-800/50">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+                    Wat Onze Klanten Zeggen
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="bg-gray-800 p-6 rounded-xl hover:scale-105 transition-transform duration-300 hover:shadow-lg hover:shadow-purple-500/20">
+                        <div class="flex text-yellow-400 mb-4">★★★★★</div>
+                        <p class="text-gray-300 mb-4">"De kwaliteit van het papier is echt uitzonderlijk. Mijn dochter is dol op de schattige designs en de kleurpotloden die erbij zitten zijn van professionele kwaliteit."</p>
+                        <p class="font-semibold">Lisa van den Berg</p>
+                        <p class="text-sm text-gray-400">Moeder van 2</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-xl hover:scale-105 transition-transform duration-300 hover:shadow-lg hover:shadow-purple-500/20">
+                        <div class="flex text-yellow-400 mb-4">★★★★★</div>
+                        <p class="text-gray-300 mb-4">"Perfect cadeau voor mijn nichtje. De verpakking is prachtig en de service was uitstekend. Binnen 24 uur geleverd!"</p>
+                        <p class="font-semibold">Mark Jansen</p>
+                        <p class="text-sm text-gray-400">Tevreden klant</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-xl hover:scale-105 transition-transform duration-300 hover:shadow-lg hover:shadow-purple-500/20">
+                        <div class="flex text-yellow-400 mb-4">★★★★★</div>
+                        <p class="text-gray-300 mb-4">"Als kunstdocent ben ik onder de indruk van de details in de tekeningen. Ze zijn uitdagend genoeg voor oudere kinderen maar ook toegankelijk voor de kleintjes."</p>
+                        <p class="font-semibold">Emma de Vries</p>
+                        <p class="text-sm text-gray-400">Kunstdocent Basisschool</p>
+                    </div>
+                    <div class="bg-gray-800 p-6 rounded-xl hover:scale-105 transition-transform duration-300 hover:shadow-lg hover:shadow-purple-500/20">
+                        <div class="flex text-yellow-400 mb-4">★★★★★</div>
+                        <p class="text-gray-300 mb-4">"Geweldige klantenservice en snelle levering. De kleurplaten zijn een hit op onze kinderafdeling in het ziekenhuis."</p>
+                        <p class="font-semibold">Dr. Peter Bakker</p>
+                        <p class="text-sm text-gray-400">Kinderarts</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-24">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-16 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+                    Over Ons
+                </h2>
+                <div class="max-w-3xl mx-auto space-y-8 text-gray-300">
+                    <p class="leading-relaxed">
+                        Opgericht in 2020 door een team van gepassioneerde kunstenaars en ouders, ontstond Knuffels Kleurplaat uit een verlangen om kinderen een unieke en kwalitatieve kleurervaring te bieden. Wat begon als een klein project vanuit huis is uitgegroeid tot Nederlands meest geliefde premium kleurplaten merk.
+                    </p>
+                    <p class="leading-relaxed">
+                        Onze missie is het stimuleren van creativiteit en verbeeldingskracht bij kinderen door middel van zorgvuldig ontworpen kleurplaten. We geloven in duurzaamheid, kwaliteit en het creëren van blijvende herinneringen. Elk product wordt met de grootste zorg en aandacht voor detail gemaakt, gebruikmakend van milieuvriendelijke materialen.
+                    </p>
                 </div>
             </div>
         </section>
@@ -98,13 +170,25 @@
                     Veelgestelde Vragen
                 </h2>
                 <div class="max-w-3xl mx-auto space-y-6">
-                    <div class="bg-gray-800 rounded-xl p-6 border border-gray-700">
-                        <h3 class="text-xl font-bold mb-2">Wanneer wordt mijn bestelling geleverd?</h3>
-                        <p class="text-gray-400">Bestellingen worden binnen 1-2 werkdagen geleverd.</p>
+                    <div class="bg-gray-800 rounded-xl p-6 border border-gray-700 hover:shadow-lg hover:shadow-purple-500/20 transition-all duration-300">
+                        <h3 class="text-xl font-bold mb-2">Wat is de levertijd van mijn bestelling?</h3>
+                        <p class="text-gray-400">Alle bestellingen worden binnen 24 uur verzonden en zijn meestal binnen 1-2 werkdagen bij je thuis. Je ontvangt direct een track & trace code.</p>
                     </div>
-                    <div class="bg-gray-800 rounded-xl p-6 border border-gray-700">
-                        <h3 class="text-xl font-bold mb-2">Is er een geld-terug-garantie?</h3>
-                        <p class="text-gray-400">Ja, niet tevreden? Geld terug binnen 30 dagen!</p>
+                    <div class="bg-gray-800 rounded-xl p-6 border border-gray-700 hover:shadow-lg hover:shadow-purple-500/20 transition-all duration-300">
+                        <h3 class="text-xl font-bold mb-2">Wat is jullie retourbeleid?</h3>
+                        <p class="text-gray-400">We bieden een 30 dagen niet-goed-geld-terug garantie. Retourneren is gratis en je krijgt het volledige aankoopbedrag terug.</p>
+                    </div>
+                    <div class="bg-gray-800 rounded-xl p-6 border border-gray-700 hover:shadow-lg hover:shadow-purple-500/20 transition-all duration-300">
+                        <h3 class="text-xl font-bold mb-2">Voor welke leeftijd zijn de kleurplaten geschikt?</h3>
+                        <p class="text-gray-400">Onze kleurplaten zijn geschikt voor kinderen vanaf 4 jaar. We hebben verschillende moeilijkheidsgraden beschikbaar.</p>
+                    </div>
+                    <div class="bg-gray-800 rounded-xl p-6 border border-gray-700 hover:shadow-lg hover:shadow-purple-500/20 transition-all duration-300">
+                        <h3 class="text-xl font-bold mb-2">Welke kleurmaterialen kan ik gebruiken?</h3>
+                        <p class="text-gray-400">Het premium papier is geschikt voor alle kleurmaterialen: kleurpotloden, stiften, gelpennen en zelfs waterverf.</p>
+                    </div>
+                    <div class="bg-gray-800 rounded-xl p-6 border border-gray-700 hover:shadow-lg hover:shadow-purple-500/20 transition-all duration-300">
+                        <h3 class="text-xl font-bold mb-2">Zijn er kortingen voor grote bestellingen?</h3>
+                        <p class="text-gray-400">Ja, voor bestellingen vanaf 10 stuks bieden we speciale bulkkortingen. Neem contact op voor een offerte op maat.</p>
                     </div>
                 </div>
             </div>
@@ -113,12 +197,12 @@
         <section class="py-24 bg-gradient-to-r from-purple-900 to-pink-900">
             <div class="container mx-auto px-6 text-center">
                 <h2 class="text-3xl md:text-4xl font-bold mb-8">
-                    Mis Deze Aanbieding Niet!
+                    Mis Deze Unieke Kans Niet!
                 </h2>
                 <p class="text-xl mb-12 text-gray-300">
-                    ⚡ Tijdelijke aanbieding - Op = Op!
+                    ⚡ Speciale aanbieding - 30% korting - Nog maar 50 exemplaren beschikbaar!
                 </p>
-                <a href="https://amzn.to/3GoxZQw" class="inline-block bg-white text-gray-900 font-bold py-4 px-8 rounded-full text-lg hover:scale-105 transform transition duration-300 shadow-lg">
+                <a href="https://amzn.to/3GoxZQw" class="inline-block bg-white text-gray-900 font-bold py-4 px-8 rounded-full text-lg hover:scale-105 transform transition duration-300 shadow-lg hover:shadow-white/25">
                     Bestel Nu Met Korting
                 </a>
             </div>
@@ -135,8 +219,9 @@
                 <div>
                     <h3 class="text-xl font-bold mb-4">Links</h3>
                     <ul class="space-y-2 text-gray-400">
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Privacy Policy</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://readthisnow.github.io/knuffels-kleurplaat-2025-04-26-m4rr5/privacy.html" class="hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://readthisnow.github.io/knuffels-kleurplaat-2025-04-26-m4rr5/terms.html" class="hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://readthisnow.github.io/knuffels-kleurplaat-2025-04-26-m4rr5/blog.html" class="hover:text-white transition-colors duration-300">Blog</a></li>
                     </ul>
                 </div>
             </div>
@@ -145,5 +230,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
